@@ -1,0 +1,101 @@
+import {
+    devlens,
+    styleSpy,
+    consolePlus,
+    tabMasterPro,
+    jsonWizard,
+    gridGuides,
+    speedBoost,
+    domSnapshot,
+    markupNotes,
+    viewportBuddy,
+    linkChecker,
+    palettePicker
+} from '../assets';
+
+export const extensions = [
+    {
+        id: 1,
+        icon: devlens,
+        name: 'DevLens',
+        desc: 'Quickly inspect page layouts and visualize element boundaries',
+        active: false,
+    },
+    {
+        id: 2,
+        icon: styleSpy,
+        name: 'StyleSpy',
+        desc: 'Instantly analyse and copy CSS from any webpage element',
+        active: false,
+    },
+    {
+        id: 3,
+        icon: consolePlus,
+        name: 'Console Plus',
+        desc: 'Enhanced console logging with filtering and timestamp features',
+        active: false,
+    },
+    {
+        id: 4,
+        icon: tabMasterPro,
+        name: 'Tab Master Pro',
+        desc: 'Advanced tab management and organization for power users',
+        active: false,
+    },
+    {
+        id: 5,
+        icon: jsonWizard,
+        name: 'JSON Wizard',
+        desc: 'Format, validate, and analyze JSON data with ease',
+        active: false,
+    },
+    {
+        id: 6,
+        icon: gridGuides,
+        name: 'Grid Guides',
+        desc: 'Overlay customizable grids on any webpage for pixel-perfect layouts',
+        active: false,
+    },
+    {
+        id: 7,
+        icon: speedBoost,
+        name: 'Speed Boost',
+        desc: 'Optimize page load times and monitor performance metrics',
+        active: false,
+    },
+    {
+        id: 8,
+        icon: domSnapshot,
+        name: 'DOM Snapshot',
+        desc: 'Capture and inspect DOM state at any point in time',
+        active: false,
+    },
+    {
+        id: 9,
+        icon: markupNotes,
+        name: 'Markup Notes',
+        desc: 'Add private notes and annotations to any webpage',
+        active: false,
+    },
+    {
+        id: 10,
+        icon: viewportBuddy,
+        name: 'Viewport Buddy',
+        desc: 'Test layouts across different screen sizes and devices',
+        active: false,
+    },
+    {
+        id: 11,
+        icon: linkChecker,
+        name: 'Link Checker',
+        desc: 'Identify and report broken links on web pages',
+        active: false,
+    },
+    {
+        id: 12,
+        icon: palettePicker,
+        name: 'Palette Picker',
+        desc: 'Extract and analyze color schemes from any website',
+        active: false,
+    }
+]
