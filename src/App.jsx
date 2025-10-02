@@ -6,8 +6,10 @@ const App = () => {
 
   return (
     <div className="p-5 mx-auto min-h-screen bg-slate-200 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-800 text-white ">
-      <Header />
-      <ExtensionsList />
+      <div className='max-w-[1400px] mx-auto'>
+        <Header />
+        <ExtensionsList />
+      </div>
     </div>
   )
 }
