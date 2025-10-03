@@ -68,7 +68,7 @@ const ExtensionsList = () => {
             />
           ))
         ) : (
-          <p className="opacity-70">No extensions found.</p>
+          <p className="text-gray-800 dark:opacity-70">No extensions found.</p>
         )}
       </div>
     </div>
